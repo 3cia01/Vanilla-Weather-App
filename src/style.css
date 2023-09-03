@@ -1,6 +1,6 @@
 body {
   font-family: arial, sans-serif;
-  background-color: rgb(80, 169, 159);
+  background: rgb(80, 169, 159);
 }
 
 h1 {
@@ -8,6 +8,7 @@ h1 {
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
+  text-align: left;
   margin-bottom: 0;
 }
 
@@ -31,9 +32,19 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+footer {
+  font-size: 14px;
+  text-align: center;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  background: linear-gradient(
+    109.5deg,
+    rgb(229, 233, 177) 11.2%,
+    rgb(223, 205, 187) 100.2%
+  );
 }
 
 .weather-app {
